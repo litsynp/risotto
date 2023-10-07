@@ -79,6 +79,10 @@ Or to define a wholly custom theme, you will need to define the following CSS va
 For light mode palettes, the sequence of 00–07 should be reversed (light to dark, not dark to light).
 Note that not all colours are currently used in the theme.
 
+## Comments
+
+You can add comments section by adding `comments.html` to `layouts/partials/` directory.
+
 ## Favicon
 
 risotto will automatically use favicons placed in the `static/` directory.
