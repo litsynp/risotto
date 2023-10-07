@@ -13,3 +13,10 @@
     </li>
     {{ end }}
 </ul>
+
+<section>
+<div>Latest Posts:</div>
+{{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{- end}}
+</section>
