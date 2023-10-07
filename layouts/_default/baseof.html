@@ -26,9 +26,11 @@
                 </div>
             </section>
 
-            <section class="page__comments">
-                {{- partial "comments.html" . -}}
-            </section>
+            {{ if .IsPage }}
+                <section class="page__comments">
+                    {{- partial "comments.html" . -}}
+                </section>
+            {{ end }}
 
             <footer class="page__footer">
                 {{- partial "footer.html" . -}}

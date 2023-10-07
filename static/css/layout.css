@@ -26,6 +26,52 @@
     }
 }
 
+.page__body h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.page__body h1:after {
+    content: ' ';
+    display: block;
+    border: 1px dashed var(--muted);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.page__body h2 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.page__body h2:after {
+    content: ' ';
+    display: block;
+    border: 1px dashed var(--muted);
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.page__body h3 {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.page__body h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.page__body p {
+    line-height: 1.5;
+}
+
+.page__body li {
+    line-height: 1.5;
+}
+
 /* Header */
 .page__header {
     grid-area: header;
